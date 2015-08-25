@@ -1,30 +1,30 @@
-.title Billing Info
+.title Billing Information
 
 .accepted_cards
 
 .credit_card
   .field.first_name
-    .placeholder First Name 
+    .placeholder First Name
     input(type="text")
 
   .field.last_name
-    .placeholder Last Name 
+    .placeholder Last Name
     input(type="text")
 
   .card_cvv
     .field.card_number
-      .placeholder Credit Card Number  
+      .placeholder Credit Card Number
       input(type="text")
 
     .field.cvv
-      .placeholder CVV 
+      .placeholder CVV
       input(type="text")
 
   .field.expires
-    .title Expires 
+    .title Expires
     .month
       select
-        include months.jade 
+        include months.jade
     .year
       select
 
@@ -32,11 +32,11 @@
   .field.address1
     .placeholder Address
     input(type="text")
-  
+
   .field.address2
     .placeholder Apt/Suite
     input(type="text")
-  
+
   .field.city
     .placeholder City
     input(type="text")
@@ -49,12 +49,11 @@
     .field.zip
       .placeholder Zip/Postal
       input(type="text")
-  
+
   .field.country
     select
       include countries.jade
-          
+
 .field.vat_number
   .placeholder VAT Number
   input(type="text")
-
